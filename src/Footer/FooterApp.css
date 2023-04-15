@@ -1,0 +1,77 @@
+
+.footer{
+    background-image: url(./images/blurry-gradient-haikei.svg);
+    background-size: cover;
+    padding: 20px 0;
+    font-size: 50px;
+    margin-top: 10%;
+    margin-bottom: 2%;
+    padding-left: 3%;
+    animation: none;
+    transition: 1s;
+    height: 300px;
+}
+
+.footer-text{
+    color: black;
+    padding: 0;
+    padding-top: 20px;
+    font-size: 30px;
+}
+.line{
+    margin-top: 10px;
+    border-top: none;
+    border-bottom: 1px solid black;
+    width: 95%;
+}
+.icons{
+    display: flex;
+}
+
+.logos{
+    opacity: 0.6;
+    width: 30px;
+    margin-top: 7.5%;
+    margin-right: 20px;
+    margin-bottom: 5px;
+    transition: 0.5s;
+}
+
+.logos:hover{
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.copyright{
+    margin-right: 40px;
+    margin-bottom: 40px;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 1050px){
+
+    .footer{
+        margin-top: 5%;
+        margin-bottom: 20px;
+        text-align: center;
+        height: 230px;
+    }
+    .footer-text{
+        color: black;
+        padding: 0;
+        padding-top: 15px;
+        font-size: 25px;
+    }
+    .logos{
+        opacity: 0.6;
+        width: 30px;
+        margin-top: 10px;
+        margin-right: 5%;
+    }
+    .copyright{
+        font-size: 15px;
+        margin-right: 15px;
+        margin-bottom: 20px;
+    }
+    
+}

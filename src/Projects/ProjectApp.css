@@ -1,0 +1,166 @@
+ .project-header{
+    background-color: rgba(23,23,29,255);
+    padding: 20px 0;
+    font-size: 50px;
+    opacity: 0;
+    transform: translateY(-100px);
+    animation-name: dropp;
+    animation-duration: 1.3s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+}
+
+@keyframes dropp {
+    0%{
+        opacity: 0;
+        transform: translatey(100px);
+    }
+    
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+.h2, h2 {
+    font-size: 20px;
+    padding-left: 20px;
+    padding-top: 5px;
+}
+.headerno {
+    color: white;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    position: fixed;
+    padding-left: 85%;
+}
+
+
+/* -----------------------------------Projects--------------------------------------- */
+
+.row{
+    margin: 10px 20px 10px 20px;
+    opacity: 0;
+    transform: translateY(-100px);
+    animation-name: dropp;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+}
+
+.card-img-top {
+    opacity: 0.6;
+    width: 97%;
+    border-radius: 20px;
+    margin: 15px 0px 0px 10px;
+    transition: 1s;
+}
+.card-img-top:hover{
+    opacity: 1;
+    transition: 1s;
+}
+.pro-title{
+    color: rgb(249, 249, 249);
+    margin: 10px 20px;
+    font-size: 30px ;
+}
+.pro-desc-top{
+    display: flex;
+}
+.pro-desc{
+    font-size: 18px;
+    background-color: rgba(56,58,66,255);
+    color: rgb(164, 164, 164);
+    margin: 10px 10px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 1px solid rgba(56,58,66,255);
+}
+
+.pro-desc:hover{
+    background: transparent;
+}
+.pro-desc-small{
+    color: white;
+}
+
+.col-sm-6 {
+    flex: 0 0 auto;
+    width: 46.5%; 
+    background-color: rgba(23,23,29,255);
+    border-radius: 20px;
+    padding-bottom: 20px;
+    margin: 20px 5px 10px 33px;
+}
+
+/* ---------------------------------Footer------------------------------------ */
+
+.project-footer{
+    background-image: url(./images/blurry-gradient-haikei.svg);
+    background-size: cover;
+    opacity: 0.5;
+    padding: 20px 0;
+    font-size: 50px;
+    text-align: center;
+    animation: none;
+    transition: 1s;
+}
+
+.project-footer:hover{
+    opacity: 1;
+    transition: 1s;
+}
+
+.selected1{
+    text-decoration: none;
+    color: aliceblue;
+    opacity: 1;
+}
+
+@media screen and (max-width: 1124px){
+
+    /* ================= Header ===================== */
+    
+    .h2, h2 {
+        font-size: 15px;
+        padding-left: 0px;
+        text-align: center;
+    }
+
+    /* ================== Projects =================== */
+    .row{
+        margin: -15px 25px 0 25px;
+        margin-right: 25px;
+    }
+    .col-sm-6 {
+        flex: 0 0 auto;
+        width: 100%; 
+        margin: 20px 0px 10px 0px;
+    }
+
+    .pro-desc-top{
+        justify-content: center;
+        text-align: center;
+    }
+    .pro-title{
+        font-size: 20px ;
+        justify-content: center;
+        text-align: center;
+    }
+    .pro-desc{
+        font-size: 15px;
+        background-color: rgba(56,58,66,255);
+        color: rgb(164, 164, 164);
+        margin: 10px 2px;
+        padding: 5px 20px;
+        border-radius: 10px;
+        border: 1px solid rgba(56,58,66,255);
+    }
+
+    .card-img-top {
+        width: 97%;
+        border-radius: 20px;
+        margin: 15px 0px 0px 5px;
+    }
+}
+

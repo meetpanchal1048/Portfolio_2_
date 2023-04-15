@@ -1,0 +1,69 @@
+body {
+    background-color: #0d0d0c;
+
+}
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.menu {
+    color: white;
+    font-size: 15px;
+}
+
+.navbar-toggler{
+    background-color: rgb(88, 76, 108) !important;
+}
+
+.bg-body-tertiary {
+    background-color: rgba(22, 22, 29, 255) !important;
+}
+
+.navbar-brand {
+    color: white !important;
+}
+
+.nav-link {
+    margin: 0 3px;
+    color: white !important;
+    transition: 0.5s !important;
+}
+
+.nav-link:hover {
+    border-radius: 10px;
+    background-color: rgba(130, 92, 92, 0.167) !important;
+    transition: 0.5s !important;
+}
+
+.navbar {
+    background: rgba(44, 44, 56, 0.75) !important;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37) !important;
+    backdrop-filter: blur(5px) !important;
+    -webkit-backdrop-filter: blur(5px) !important;
+    border-radius: 15px;
+    margin: 10px 50px;
+    padding: 15px 15px;
+    height: auto;
+
+}
+
+/* #navbarNavAltMarkup {
+    margin-right: -100%;
+} */
+
+.sticky-top {
+    top: 10px;
+}
+
+
+@media screen and (max-width: 600px){
+
+    .navbar{
+        margin: 10px 25px;
+        width: 88%;
+    }
+    .nav-link:hover {
+        padding: 10px 20px;
+        border-radius: 5px;
+    }
+}

@@ -1,0 +1,75 @@
+.header-links{
+  opacity: 0.5;
+  color: black;
+}
+
+.card{
+    margin: 0 50px;
+    margin-top: 2%;
+    border-radius: 20px;
+    animation: drop 1s ease-in-out;
+    
+}
+
+
+.card-img{
+    object-fit: cover;
+    border-radius: 20px;
+    max-height: 500px;
+}
+.card-text {
+    font-size: 50px;
+    opacity: 0;
+    transform: translateY(-100px);
+    animation-name: drop-text;
+    animation-duration: 0.7s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    animation-delay: 1s;
+  }
+@keyframes drop-text {
+    /* Set the initial state of the animation */
+    0% {
+      opacity: 0;
+      transform: translateY(100px);
+    }
+  
+    /* Set the final state of the animation */
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+@keyframes drop {
+    /* Set the initial state */
+    0% {
+      transform: translateY(-100%);
+    }
+  
+    /* Set the final state */
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
+
+@media screen and (max-width: 680px){
+
+    .card{
+    margin: 10px 25px;
+    margin-top: 15px;
+    border-radius: 20px;
+    animation: drop 1s ease-in-out;
+    width: 88%;
+    }
+
+    .card-img{
+      object-fit: cover;
+      border-radius: 20px;
+      width: 100%;
+      height: 600px;
+    }
+    .card-text {
+      font-size: 40px;
+    }
+}

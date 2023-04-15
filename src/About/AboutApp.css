@@ -1,0 +1,105 @@
+.image-back {
+    position: relative;
+    flex: 0 0 auto;
+    width: 46.5%;
+    background-color: rgba(23, 23, 29, 255);
+    border-radius: 20px;
+    padding-bottom: 20px;
+    margin: 20px 5px 10px 33px;
+    z-index: 0;
+}
+
+.image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 7%;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.html {
+    margin-left: 11%;
+    width: 17%;
+}
+
+.javascript {
+    margin-top: 65%;
+    margin-left: 15%;
+    width: 11%;
+}
+
+.bootstrap {
+    margin-left: 80%;
+    margin-top: 17%;
+    width: 12%;
+}
+
+.react {
+    margin-left: 70%;
+    margin-top: 85%;
+    width: 13%;
+}
+
+.card-img-top {
+    width: 97%;
+    border-radius: 20px;
+    margin: 15px 0px 0px 10px;
+}
+
+.cards-img-right {
+    opacity: 0.8;
+    padding-top: 20%;
+    padding-bottom: 4%;
+}
+
+.background-img {
+    opacity: 0.8;
+    animation: rotate 60s linear infinite;
+}
+
+.exp-title {
+    color: rgb(249, 249, 249);
+    margin: 10px 20px 0 20px;
+    font-size: 30px;
+}
+.download{
+    text-decoration: none;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .image-back {
+        width: 100%;
+        margin: 0;
+        margin-top: 10%;
+    }
+
+    .html {
+        width: 19%;
+    }
+
+    .javascript {
+        margin-top: 60%;
+        margin-left: 15%;
+        width: 13%;
+    }
+
+    .bootstrap {
+        width: 15%;
+    }
+
+    .react {
+        width: 15%;
+    }
+}
