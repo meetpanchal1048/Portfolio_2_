@@ -30,7 +30,7 @@ export const About = () => {
                     <img src={react} className='image react' />
                     <img src={reactnatv} className='image reactntv' />
                     <div className="card-body" >
-                        <h5 className="pro-title">More Skills</h5>
+                        <h5 className="pro-title">More Skill</h5>
                         <div className="pro-desc-top">
                             <p className="pro-desc">UI/UX</p>
                             <p className="pro-desc">Graphic Designing</p>
