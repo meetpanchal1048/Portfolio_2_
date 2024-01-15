@@ -12,7 +12,7 @@ import reactjscor from './Images/React Cour.png'
 import reactntvcour from './Images/React Native Cour.png'
 import jscour from './Images/Javascript Cour.png'
 import ibm from './Images/IBM.png'
-import resume from './Resume-09.pdf'
+import resume from './resume.pdf'
 
 
 export const About = () => {
