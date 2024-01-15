@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio_2_/static/css/main.05712571.css",
-    "main.js": "/Portfolio_2_/static/js/main.9aea691e.js",
+    "main.css": "/Portfolio_2_/static/css/main.b7bb3e75.css",
+    "main.js": "/Portfolio_2_/static/js/main.97587b77.js",
     "static/media/portfolio.png": "/Portfolio_2_/static/media/portfolio.0d7bdef508a6c348f4db.png",
     "static/media/calculator.png": "/Portfolio_2_/static/media/calculator.c8cf005d20522c949a84.png",
     "static/media/Javascript Cour.png": "/Portfolio_2_/static/media/Javascript Cour.7b3a664b04060ca033ef.png",
@@ -12,12 +12,12 @@
     "static/media/background.png": "/Portfolio_2_/static/media/background.63284612b084c8bf12e0.png",
     "static/media/Bootstrap.jpg": "/Portfolio_2_/static/media/Bootstrap.c392c0f364ed90957c30.jpg",
     "static/media/lorem.png": "/Portfolio_2_/static/media/lorem.8802b5c45b78cf04129f.png",
+    "static/media/experience.png": "/Portfolio_2_/static/media/experience.824b864c50ec54854595.png",
     "static/media/JS.jpg": "/Portfolio_2_/static/media/JS.08900eca734a328212e4.jpg",
     "static/media/React Native.png": "/Portfolio_2_/static/media/React Native.62a1d757a18bb88e4df7.png",
     "static/media/techrec.png": "/Portfolio_2_/static/media/techrec.cb668d1a8a0f507be086.png",
     "static/media/IBM.png": "/Portfolio_2_/static/media/IBM.01d8e28eddba53c96676.png",
-    "static/media/experience.png": "/Portfolio_2_/static/media/experience.3f84b2d7b6fda49fd93d.png",
-    "static/media/Resume-09.pdf": "/Portfolio_2_/static/media/Resume-09.9a098ade017d2a74dd33.pdf",
+    "static/media/resume.pdf": "/Portfolio_2_/static/media/resume.dc9df5af11a3c2b81ca5.pdf",
     "static/media/tailwind.png": "/Portfolio_2_/static/media/tailwind.2f69817385fbd483f9e2.png",
     "static/media/instagram.svg": "/Portfolio_2_/static/media/instagram.116ad97e1f8e0638fcb7d5aed6800697.svg",
     "index.html": "/Portfolio_2_/index.html",
@@ -25,11 +25,11 @@
     "static/media/blurry-gradient-haikei.svg": "/Portfolio_2_/static/media/blurry-gradient-haikei.88c5b1d1fd233f2e7483.svg",
     "static/media/linkedin.svg": "/Portfolio_2_/static/media/linkedin.93683c2cc3d5ca884dcf6c3525104a48.svg",
     "static/media/envelope-solid.svg": "/Portfolio_2_/static/media/envelope-solid.6345f82ededa4dc800949734956dc764.svg",
-    "main.05712571.css.map": "/Portfolio_2_/static/css/main.05712571.css.map",
-    "main.9aea691e.js.map": "/Portfolio_2_/static/js/main.9aea691e.js.map"
+    "main.b7bb3e75.css.map": "/Portfolio_2_/static/css/main.b7bb3e75.css.map",
+    "main.97587b77.js.map": "/Portfolio_2_/static/js/main.97587b77.js.map"
   },
   "entrypoints": [
-    "static/css/main.05712571.css",
-    "static/js/main.9aea691e.js"
+    "static/css/main.b7bb3e75.css",
+    "static/js/main.97587b77.js"
   ]
 }
